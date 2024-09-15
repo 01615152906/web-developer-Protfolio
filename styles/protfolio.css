@@ -113,6 +113,11 @@ font-weight: 400;
 
 }
 /*main section style*/
+
+main{
+     min-width: 1140px;
+     margin: 0 auto;
+}
 /*about section style*/
 .about{
      padding: 130px;
@@ -120,4 +125,11 @@ font-weight: 400;
      background :#FFF8F3 ;
 
      margin: 130px 0;
+}
+.about-info-container{
+     display: flex;
+     justify-content: space-around;
+}
+.about-info{
+     text-align: center;
 }
